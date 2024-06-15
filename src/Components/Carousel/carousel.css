@@ -1,0 +1,10 @@
+.caro-img{
+    width: 100%;
+    height: 550px;
+}
+
+@media (max-width: 768px) {
+    .caro-img{
+    height: 300px;
+    }
+}
