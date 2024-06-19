@@ -19,7 +19,6 @@ function Home() {
         <div className='card-home'>
           <CardHome />
         </div>
-        {/* <hr className='custome-line' /> */}
       </div>
       <div className='sec-2'>
         <h2>Testimonials</h2>

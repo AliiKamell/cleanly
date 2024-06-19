@@ -9,7 +9,7 @@ function CardHome() {
     return (
         <>
             <Card style={{ width: '20rem' }} id='card'>
-                <Card.Img variant="top" src={img1}  className='img-card'/>
+                <Card.Img variant="top" src={img1}  className='img-card' alt='img1'/>
                 <Card.Body>
                     <Card.Title>In-Door Cleaning</Card.Title>
                     <Card.Text>
@@ -20,7 +20,7 @@ function CardHome() {
                 </Card.Body>
             </Card>
             <Card style={{ width: '20rem' }} id='card' >
-                <img variant="top" src={img2} className='img-card'/>
+                <Card.Img variant="top" src={img2} className='img-card' alt='img2'/>
                 <Card.Body>
                     <Card.Title>Out-Door Cleaning</Card.Title>
                     <Card.Text>
@@ -31,7 +31,7 @@ function CardHome() {
                 </Card.Body>
             </Card>
             <Card style={{ width: '20rem' }} id='card'>
-                <Card.Img variant="top" src={img3} className='img-card'/>
+                <Card.Img variant="top" src={img3} className='img-card' alt='img3'/>
                 <Card.Body>
                     <Card.Title>Move in / out Cleaning</Card.Title>
                     <Card.Text>

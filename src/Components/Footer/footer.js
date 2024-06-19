@@ -22,6 +22,7 @@ function Footer() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           className='google-iframe'
+          title="Google Maps Location"
         />
         <div className='footer-links'>
           <Link to='/services' className='footer-link'>Our Services</Link>
