@@ -10,7 +10,7 @@ function CardHome() {
         <>
             <Card style={{ width: '20rem' }} id='card'>
                 <Card.Img variant="top" src={img1}  className='img-card' alt='img1'/>
-                <Card.Body>
+                <Card.Body className='card-body'>
                     <Card.Title>In-Door Cleaning</Card.Title>
                     <Card.Text>
                     Don't stress over making the time to clean your house - we are here to take that off your list. We would be more than happy to customize
@@ -21,7 +21,7 @@ function CardHome() {
             </Card>
             <Card style={{ width: '20rem' }} id='card' >
                 <Card.Img variant="top" src={img2} className='img-card' alt='img2'/>
-                <Card.Body>
+                <Card.Body className='card-body'>
                     <Card.Title>Out-Door Cleaning</Card.Title>
                     <Card.Text>
                     Transform your outdoor spaces with our professional cleaning services. From patios and driveways to garden paths and facades, 
@@ -32,7 +32,7 @@ function CardHome() {
             </Card>
             <Card style={{ width: '20rem' }} id='card'>
                 <Card.Img variant="top" src={img3} className='img-card' alt='img3'/>
-                <Card.Body>
+                <Card.Body className='card-body'>
                     <Card.Title>Move in / out Cleaning</Card.Title>
                     <Card.Text>
                     If you're moving out of your home, let us remove the stress of cleaning your house well enough to get your security deposit back. 

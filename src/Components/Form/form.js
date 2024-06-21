@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Button } from 'react-bootstrap'
-import RadioButton from '../../Components/Radio/radio';
+import { Button} from 'react-bootstrap'
 import { useState } from 'react';
 
 
@@ -32,7 +31,13 @@ export const ContactUs = () => {
 
     const handleChange = (event) => {
         setValue(Number(event.target.value));
-        setFormData({ ...formData, area: Number(event.target.value) }); // <== HIGHLIGHTED
+        setFormData({ ...formData, area: Number(event.target.value) });
+    };
+
+    const [type, setType] = useState('');
+
+    const handleChangeType = (event) => {
+        setType(event.target.value);
     };
 
     const [formData, setFormData] = useState({
@@ -67,8 +72,11 @@ export const ContactUs = () => {
             </div>
             <div className='input-2'>
                 <div className='type input'>
-                    <RadioButton name='type' />
-                    
+                    <select value={type} className='type-input' onChange={handleChangeType}>
+                        <option name='type' value="indor">In Door</option>
+                        <option name='type' value="outdoor">Out Door</option>
+                        <option name='type' value="Office">Office</option>
+                    </select>
                 </div>
                 <div className='date-time input'>
                     <label htmlFor="datetime-local">Book a Date:</label>

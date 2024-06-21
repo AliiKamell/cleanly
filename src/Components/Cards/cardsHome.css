@@ -16,3 +16,12 @@
     height: 200px;
 }
 
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-card{
+    align-self: flex-end;
+}
