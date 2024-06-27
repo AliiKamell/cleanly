@@ -10,3 +10,10 @@
 .nav-link{
     text-decoration: none;
 }
+
+#me-auto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

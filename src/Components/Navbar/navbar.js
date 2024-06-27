@@ -15,13 +15,13 @@ function AppNavbarr() {
         <Link to='/' className='nav-link'><SiCcleaner className='brand-icon'/>LEANLY</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" id='me-auto'>
             <Link to='/' className='nav-link'>Home</Link>
             <Link to='/services' className='nav-link'>Services</Link>
             <Link to='/about' className='nav-link'>About Us</Link>
            
           </Nav>
-          <Nav>
+          <Nav id='me-auto'>
             <Link to='/contact-us' className='nav-link'>Contact US</Link>
             <NavDropdown title="Locations" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Cairo</NavDropdown.Item>
