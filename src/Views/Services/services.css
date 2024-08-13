@@ -12,9 +12,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 30%;
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     height: auto;
 }
 
@@ -75,10 +75,9 @@
 .date{
     display: flex;
     flex-direction: column;
-    width: 100%;
     align-items: center;
     background-color: white;
-    width: 50%;
+    width: 65%;
     border-radius: 20px;
     margin: 0px 0 10px 0;
     height: auto;
@@ -226,10 +225,15 @@ input{
     }
 
     .input-main{
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .social-logo{
         align-self: flex-start;
+    }
+}
+@media (max-width: 770px) {
+    .input-main{
+        flex-direction: column;
     }
 }
