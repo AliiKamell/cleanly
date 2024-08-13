@@ -1,239 +1,233 @@
-.services-main{
-    min-height:100vh;
-    width: 100%;
-    background-color: #E0F7FA;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+.services-main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #e0f7fa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.head-services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 30%;
-    text-align: left;
-    font-size: 30px;
-    height: auto;
+.head-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  text-align: left;
+  font-size: 30px;
+  height: auto;
 }
 
-
-.email-logo{
-    display: flex;
-    flex-direction: row;
-    font-size: 17px;
-    align-items: center;
-    margin-bottom: 0;
-    margin-top: 20px;
+.email-logo {
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+  align-items: center;
+  margin-bottom: 0;
+  margin-top: 20px;
 }
 
-.tel-logo{
-    display: flex;
-    flex-direction: row;
-    font-size: 17px;
-    margin-top: 20px;
+.tel-logo {
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+  margin-top: 20px;
 }
 
-.contact{
-    margin-bottom: 0;
-    padding-left: 10px;
-    text-decoration: none;
-    color: black;
+.contact {
+  margin-bottom: 0;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-.social-logo{
-    margin-top: 20px;
-    font-size: 30px;
-    margin-left: 10px;
+.social-logo {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-left: 10px;
 }
 
-.insta{
-    color: black;
+.insta {
+  color: black;
 }
 
-.in{
-    margin-left: 20px;
-    color: black;
+.in {
+  margin-left: 20px;
+  color: black;
 }
 
-.fb{
-    margin-left: 20px;
-    color: black;
+.fb {
+  margin-left: 20px;
+  color: black;
 }
 
-.type-input{
-    width: 50%;
-    border: none;
-    border-bottom: 3px solid #b6f4fd;
+.type-input {
+  width: 50%;
+  border: none;
+  border-bottom: 3px solid #b6f4fd;
 }
 
-.type-input:focus{
-    border: black;
+.type-input:focus {
+  border: black;
 }
 
-.date{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    width: 65%;
-    border-radius: 20px;
-    margin: 0px 0 10px 0;
-    height: auto;
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 65%;
+  border-radius: 20px;
+  margin: 0px 0 10px 0;
+  height: auto;
 }
 
-.location{
-    width: 100px;
+.location {
+  width: 100px;
 }
 
-#datetime-local{
- width: 200px;   
- margin-bottom: 20px;
- margin-top: 10px;
- border: none;
- border-bottom: 3px solid #b6f4fd;
+#datetime-local {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 3px solid #b6f4fd;
 }
 
-#datetime-local:focus{
-    border: none;
+#datetime-local:focus {
+  border: none;
 }
 
-.address{
-    justify-content: space-between;
+.address {
+  justify-content: space-between;
 }
 
-label{
-    width: 100px;
+label {
+  width: 100px;
 }
 
-.input{
-    margin-top: 15px;
+.input {
+  margin-top: 15px;
 }
 
-input{
-    margin-top: 30px;
-}
-    
-.input-main{
-    margin-top: 10px;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+input {
+  margin-top: 30px;
 }
 
-.date-time{
-    margin-top: 40px;
+.input-main {
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.input-2{
-    margin-left: 20px;
+.date-time {
+  margin-top: 40px;
 }
 
-.area{
-    margin-top: 30px;
-    margin-bottom: 10px;
+.input-2 {
+  margin-left: 20px;
 }
 
-
-#tel{
-    margin-left: 10px;
-    margin-top: 20px;
-    width: 60%;
-    border: none;
-    border-bottom: 3px solid #b6f4fd;
+.area {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-#tel:focus{
-    border: none;
-}
-    
-#full-name{
-    margin-left: 10px;
-    margin-top: 20px;
-    width: 60%;
-    border: none;
-    border-bottom: 3px solid #b6f4fd;
+#tel {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 60%;
+  border: none;
+  border-bottom: 3px solid #b6f4fd;
 }
 
-#full-name:focus{
-    border: none;
-}        
-        
-#email{
-    margin-left: 10px;
-    margin-top: 20px;
-    width: 60%;
-    border: none;
-    border-bottom: 3px solid #b6f4fd;
+#tel:focus {
+  border: none;
 }
 
-#email:focus{
-    border: none;
-}
-            
-#address{
-    margin-left: 10px;
-    margin-top: 20px;
-    width: 60%;
-    border: none;
-    border-bottom: 3px solid #b6f4fd;
-
+#full-name {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 60%;
+  border: none;
+  border-bottom: 3px solid #b6f4fd;
 }
 
-#address:focus{
-    border: none;
+#full-name:focus {
+  border: none;
 }
 
-
-.btn-input{
-    margin: 50px 0 30px 0;
+#email {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 60%;
+  border: none;
+  border-bottom: 3px solid #b6f4fd;
 }
-            
+
+#email:focus {
+  border: none;
+}
+
+#address {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 60%;
+  border: none;
+  border-bottom: 3px solid #b6f4fd;
+}
+
+#address:focus {
+  border: none;
+}
+
+.btn-input {
+  margin: 50px 0 30px 0;
+}
 
 @media (max-width: 1375px) {
-    .services-main{
-       flex-direction: column-reverse;
-    }
-    .contact-service{
-        display: flex;    
-        flex-direction: column;
-        align-items: center;
-    }
+  .services-main {
+    flex-direction: column-reverse;
+  }
+  .contact-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .head-services{
-        width: 80%;
-        text-align: center;
-        padding-top: 10px;
-        font-size: 20px;
-    }
-    .date{
-        width: 90%;
-        margin-bottom: 30px;       
-        margin-top: 40px;
-        align-content: center;
-    }
+  .head-services {
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .date {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    align-content: center;
+  }
 
-    .type-input{
-        width: 80%;
-        align-self: center;
-        margin-top: 30px;
-        
-    }
+  .type-input {
+    width: 80%;
+    align-self: center;
+    margin-top: 30px;
+  }
 
-    .input-main{
-        flex-direction: row;
-    }
+  .input-main {
+    flex-direction: row;
+  }
 
-    .social-logo{
-        align-self: flex-start;
-    }
+  .social-logo {
+    align-self: flex-start;
+  }
 }
 @media (max-width: 770px) {
-    .input-main{
-        flex-direction: column;
-    }
+  .input-main {
+    flex-direction: column;
+  }
 }
